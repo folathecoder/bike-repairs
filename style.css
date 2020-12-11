@@ -4,7 +4,7 @@ html {
     background-size: contain;
 }
 body {
-    background-image: url('images/image-lion-background.png');
+    background-image: url('https://folathecoder.github.io/bike-repairs/image-lion-background.png');
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     color: white;
@@ -121,42 +121,42 @@ main strong {
 }
 .sponsor1 {
     width: 160px;
-    background-image: url(images/yolla-removebg-preview.png);
+    background-image: url(https://folathecoder.github.io/bike-repairs/yolla-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
 .sponsor2 {
     width: 160px;
-    background-image: url(images/bar-removebg-preview.png);
+    background-image: url(https://folathecoder.github.io/bike-repairs/bar-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
 .sponsor3 {
     width: 160px;
-    background-image: url(images/back-removebg-preview.png);
+    background-image: url(https://folathecoder.github.io/bike-repairs/back-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
 .sponsor4 {
     width: 160px;
-    background-image: url(images/starper-removebg-preview.png);
+    background-image: url(https://folathecoder.github.io/bike-repairs/starper-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
 .sponsor5 {
     width: 160px;
-    background-image: url(images/marlana-removebg-preview.png);
+    background-image: url(https://folathecoder.github.io/bike-repairs/marlana-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: none;
 }
 .sponsor6 {
     width: 160px;
-    background-image: url(images/deno-removebg-preview.png);
+    background-image: url(https://folathecoder.github.io/bike-repairs/deno-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: none;
