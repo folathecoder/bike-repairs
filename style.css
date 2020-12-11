@@ -1,46 +1,234 @@
+html {
+    /* height: 200%; */
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-size: contain;
+}
+body {
+    background-image: url('images/image-lion-background.png');
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    color: white;
+}
+h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 3.25rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
 .container {
     width: 1024px;
     min-height: 300px;
-    background-color: rgb(138, 138, 204);
     margin-left: auto;
     margin-right: auto;
 }
 header {
-    min-height: 100px;
-    background-color: rgb(38, 38, 251);
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.335);
 }
+.logo {
+    flex: 1;
+}
+nav {
+    flex: 1;
+    text-align: right;
+    display: inline;
+}
+.nav-button {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-color:transparent;
+    margin-left: 5px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+} 
+.drop-down {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.nav-button:hover .drop-down {
+    display: block;
+}
+.drop-button {
+    background-color: #c54740;
+    color: blue;
+    padding: 10px 50px;
+    text-align: left;
+}
+a:hover .drop-button {
+    color: rgb(0, 0, 0);
+}
+
+
 main {
-    min-height: 300px;
-    background-color: rgb(35, 35, 173);
+    min-height: 400px;
     display: flex;
     align-items: center;
 }
+main img {
+    border-radius: 5px;
+}
+main strong {
+    color: rgba(255, 255, 255, 0.753);
+    text-shadow: 0px 0px 2px rgb(255, 0, 0);
+}
+.main-button {
+    color: #FA4083;
+    background-color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top:20px;
+}
+.main-button:hover {
+    color: #f6dbe5;
+    background-color: #000000;
+}
 .hero1 {
-    background-color: rgb(138, 151, 148);
     flex: 2;
+    padding-right: 100px;
 }
 .hero2 {
-    background-color: rgb(22, 165, 134);
     flex: 1;
 }
+.sponsor {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.322);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.472);
+}
+.sponsor1 {
+    width: 160px;
+    background-image: url(images/yolla-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.sponsor2 {
+    width: 160px;
+    background-image: url(images/bar-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.sponsor3 {
+    width: 160px;
+    background-image: url(images/back-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.sponsor4 {
+    width: 160px;
+    background-image: url(images/starper-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.sponsor5 {
+    width: 160px;
+    background-image: url(images/marlana-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+.sponsor6 {
+    width: 160px;
+    background-image: url(images/deno-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
 .card {
-    min-height: 300px;
-    background-color: rgb(7, 7, 128);
     display:flex;
     justify-content: space-between;
+    padding-top: 100px;
+    text-align: center;
 }
 .card1 {
-    min-height: 300px;
-    background-color: rgb(215, 215, 238);
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+    border-radius: 5px;
+    min-height: 250px;
     width:30%;
+    box-shadow: 0px 0px 10px black;
 }
 .card2 {
-    min-height: 300px;
-    background-color: rgb(116, 116, 138);
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+    border-radius: 5px;
+    min-height: 250px;
     width:30%;
+    box-shadow: 0px 0px 10px black;
 }
 .card3 {
-    min-height: 300px;
-    background-color: rgb(68, 68, 88);
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom right;
+    border-radius: 5px;
+    min-height: 250px;
     width:30%;
+    box-shadow: 0px 0px 10px black;
+}
+.card p {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 0px 30px;
+}
+i {
+    font-size: 40px;
+    margin: 30px 20px 20px 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.card img {
+    border-radius: 15px;
+}
+.testimonials {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.test {
+    width: 42%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.test p:last-of-type {
+    margin-left: 50px;
+    font-size: 1rem;
 }
