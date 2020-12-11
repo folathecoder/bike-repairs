@@ -168,7 +168,7 @@ main strong {
     text-align: center;
 }
 .card1 {
-    background-image: url(image-background-card1.jpg);
+    background-image: url(https://folathecoder.github.io/bike-repairs/image-background-card1.jpg );
     background-size: cover;
     background-repeat: none;
     background-position: bottom;
@@ -178,7 +178,7 @@ main strong {
     box-shadow: 0px 0px 10px black;
 }
 .card2 {
-    background-image: url(image-background-card2.jpg);
+    background-image: url(https://folathecoder.github.io/bike-repairs/image-background-card2.jpg);
     background-size: cover;
     background-repeat: none;
     background-position: bottom;
@@ -188,7 +188,7 @@ main strong {
     box-shadow: 0px 0px 10px black;
 }
 .card3 {
-    background-image: url(image-background-card3.jpg);
+    background-image: url(https://folathecoder.github.io/bike-repairs/image-background-card3.jpg );
     background-size: cover;
     background-repeat: none;
     background-position: bottom right;
